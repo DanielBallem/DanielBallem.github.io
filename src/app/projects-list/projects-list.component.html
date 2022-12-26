@@ -1,0 +1,12 @@
+<mat-grid-list cols="3" rowHeight="2:1">
+    
+    <mat-grid-tile *ngFor="let item of projectList">
+        <mat-card (click)="navigate(item)" >
+            <mat-card-header>
+              <mat-card-title>{{item.title}}</mat-card-title>
+            </mat-card-header>
+            <img class="project-image" mat-card-image src="../../assets/{{item.image}}" alt="Photo of a game scene with small planets in space, a player is on the side of a cube-shaped planet, and tiny balls are bouncing around a sphere planet.">
+          </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+  

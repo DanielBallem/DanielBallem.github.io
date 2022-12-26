@@ -1,0 +1,25 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<mat-toolbar color="primary" class="top-toolbar">
+  <span class="header">Daniel Ballem</span>
+  <div class="toolbar-links">
+    <a mat-button href="mailto:DanielVBallem@gmail.com" target="_blank">DanielVBallem@gmail.com</a>
+    <a mat-raised-button href="https://github.com/DanielBallem" target="_blank">Github</a>
+    <a mat-raised-button href="https://ca.linkedin.com/in/daniel-ballem-84b905121" target="_blank">Linkedin</a>
+  </div>
+</mat-toolbar>
+
+<div class="about-me-wrapper">
+  <app-about-me></app-about-me>
+</div>
+
+<div class="portfolio-wrapper">
+  <mat-tab-group>
+    <mat-tab label="Projects"> <app-projects-list></app-projects-list></mat-tab>
+    <mat-tab label="Work Experience"><app-work-experience-list></app-work-experience-list></mat-tab>
+    <!-- <mat-tab label="School Projects"> Content 3 </mat-tab> -->
+  </mat-tab-group>
+  
+</div>
+
+<router-outlet></router-outlet>

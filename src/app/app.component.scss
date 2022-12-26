@@ -1,0 +1,25 @@
+.header {
+    font-size: xx-large;
+}
+
+.top-toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000;
+}
+
+.toolbar-links {
+    margin-right: 10px;
+    margin-left: auto;
+
+    a {
+        margin-left: 5px;
+    }
+}
+
+.about-me-wrapper {
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: auto;
+}

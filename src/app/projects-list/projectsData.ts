@@ -6,6 +6,11 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Prototype: Impossible Spaces in VR',
+    link: 'https://github.com/DanielBallem/Impossible-Spaces-In-VR',
+    image: 'ImpossibleSpaces.png',
+  },
+  {
     title: 'Prototype: Planetary Gravity using Mesh Mormals',
     link: 'https://github.com/DanielBallem/PlanetGravityUnity',
     image: 'PlanetProject.png',
@@ -16,7 +21,7 @@ export const projects: Project[] = [
     image: 'questArchitecture.png',
   },
   {
-      title: "Released Mobile App: Bullet Hell Guantlet",
+      title: "Released Mobile App: Bullet Hell Gauntlet",
       link: "https://play.google.com/store/apps/details?id=com.DanielBallem.BulletHellGauntlet&hl=en&gl=US&pli=1",
       image: "mobileApp.png"
   },
